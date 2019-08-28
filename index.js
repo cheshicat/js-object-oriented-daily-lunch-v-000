@@ -56,8 +56,8 @@ class Meal {
      return this.deliveries().map(delivery => delivery.customer());
    }
 
-   byPrice(){
-  //   meals[].sort
+   byPrice() {
+     return meals[].sort
    }
 }
 
