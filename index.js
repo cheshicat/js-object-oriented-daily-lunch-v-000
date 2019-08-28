@@ -31,5 +31,3 @@ class Meal {
      this.price = price;
    }
 }
-
-
