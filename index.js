@@ -10,3 +10,14 @@ class Neighborhood {
      store.neighborhoods.push(this);
    }
 }
+
+let customerId = 0;
+
+class Customer {
+  constructor(name, neighborhoodId) {
+     this.name = name;
+     this.id = customerId++;
+     this.neighborhoodId = neighborhood.id;
+     store.customers.push(this);
+   }
+}
