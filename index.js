@@ -9,6 +9,12 @@ class Neighborhood {
      this.id = neighborhoodId++;
      store.neighborhoods.push(this);
    }
+
+   deliveries() {
+     return store.deliveries.find(delivery => {
+       return deliveryId === this.deliveryId
+     })
+   }
 }
 
 let customerId = 0;
