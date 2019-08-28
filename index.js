@@ -39,7 +39,7 @@ class Delivery {
   constructor(mealId, neighborhoodId, customerId) {
      this.id = deliveryId++;
      this.mealId = mealId;
-  //   this.custo.erId = customer.id;
+     this.customerId = customerId;
   //   this.neighborhoodId = neighborhood.id;
      store.deliveries.push(this);
    }
