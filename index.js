@@ -57,7 +57,7 @@ class Meal {
    }
 
    byPrice(){
-     
+
    }
 }
 
