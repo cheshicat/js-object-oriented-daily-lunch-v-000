@@ -56,7 +56,7 @@ class Meal {
      return this.deliveries().map(delivery => delivery.customer());
    }
 
-   byPrice() {
+  static byPrice() {
      return store.meals.sort((a, b) => b.price - a.price)
    }
 }
