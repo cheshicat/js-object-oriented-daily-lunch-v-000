@@ -55,6 +55,10 @@ class Meal {
    customers() {
      return this.deliveries().map(delivery => delivery.customer());
    }
+
+   byPrice(){
+     
+   }
 }
 
 let deliveryId = 0;
