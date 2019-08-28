@@ -27,7 +27,7 @@ let mealId = 0;
 class Meal {
   constructor(title, price) {
      this.title = title;
-     this.id = menuId++;
+     this.id = mealId++;
      this.price = price;
    }
 }
