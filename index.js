@@ -31,3 +31,14 @@ class Meal {
      this.price = price;
    }
 }
+
+let deliveryId = 0;
+
+class Delivery {
+  constructor(mealId, neighborhoodId, customerId) {
+     this.name = name;
+     this.id = customerId++;
+     this.neighborhoodId = neighborhood.id;
+     store.customers.push(this);
+   }
+}
